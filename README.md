@@ -29,30 +29,18 @@ git clone https://github.com/your-username/health_wellness_agent.git
 cd health_wellness_agent
 
 2. Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Make sure Python 3.11 or above is installed.
 
 3. Setup Environment Variable
 Create a .env file in the project root with your Gemini API key:
 
-env
-Copy
-Edit
 GEMINI_API_KEY=your_google_gemini_api_key_here
 4. Run the Application
-bash
-Copy
-Edit
 python main.py
 You can now interact with the AI in your terminal.
 
 📁 Project Folder Structure
-bash
-Copy
-Edit
 health_wellness_agent/
 ├── main.py                           # Entry point of the app
 ├── agent.py                          # Main AI agent configuration
@@ -93,10 +81,3 @@ Variable Name	Description
 GEMINI_API_KEY	Your Google Gemini API Key (secret)
 
 ⚠️ Never upload your .env file to GitHub. It's already included in .gitignore.
-
-👨‍🎓 Author Information
-Name: Ameer Hamza
-
-Roll Number: 404642
-
-Country: Pakistan
